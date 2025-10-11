@@ -4,6 +4,7 @@ const cors = require("cors");
 const authRoutes = require("./routes/authRoutes");
 const todoRoutes = require("./routes/todoRoutes");
 const adminRoutes = require("./routes/adminRoutes");
+const errorHandler = require("./middleware/errorHandler");
 
 const app = express();
 
@@ -33,4 +34,5 @@ app.use((req, res) => {
   });
 });
 
+app.use(errorHandler);
 module.exports = app;
