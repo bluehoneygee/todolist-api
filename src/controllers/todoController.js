@@ -183,11 +183,14 @@ exports.toggleTodoCompletion = async (req, res) => {
 
 exports.getTodoStats = async (req, res) => {
   try {
-    const userId = req.user.role === "admin" ? null : req.user.id;
-    const query = userId ? { user: userId } : {};
+    const mongoose = require("mongoose");
+    const matchStage =
+      req.user.role === "admin"
+        ? {}
+        : { user: mongoose.Types.ObjectId.createFromHexString(req.user.id) };
 
     const stats = await Todo.aggregate([
-      { $match: query },
+      { $match: matchStage },
       {
         $group: {
           _id: null,
@@ -223,6 +226,7 @@ exports.getTodoStats = async (req, res) => {
       },
     });
   } catch (error) {
+    console.error("Get Todo Stats Error:", error);
     res.status(500).json({
       success: false,
       message: "Server Error",
