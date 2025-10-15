@@ -4,6 +4,16 @@
 
 ---
 
+## Quick Links
+
+- [Interactive API Documentation](https://documenter.getpostman.com/view/47645269/2sB3QNooBP)
+- [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/47645269-4389e37f-b17f-4b0b-b4df-973c5017d49a?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D47645269-4389e37f-b17f-4b0b-b4df-973c5017d49a%26entityType%3Dcollection%26workspaceId%3D76d9a83e-3e52-4cbe-84f9-e5c9c82d3e01)
+- Download Collection:
+  - [ToDoList_API_Collection.json](./ToDoList_API_Collection.json)
+  - [ToDoList_Production_Environment.json](./ToDoList_Production_Environment.json)
+
+---
+
 ## Features
 
 ### Authentication & Authorization
@@ -36,11 +46,35 @@
 
 ---
 
-## API Endpoints
+## API Documentations
+
+### Option 1: Interactive Documentation (Postman) - RECOMMENDED
+
+Dokumentasi interaktif lengkap dengan contoh request/response:
+
+- [Interactive API Documentation](https://documenter.getpostman.com/view/47645269/2sB3QNooBP)
+
+Features:
+
+- ✅ Semua endpoints dengan examples
+- ✅ Auto-updated dari collection
+- ✅ Bisa test langsung dengan "Run in Postman"
+- ✅ Copy-paste ready code snippets
+
+- [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/47645269-4389e37f-b17f-4b0b-b4df-973c5017d49a?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D47645269-4389e37f-b17f-4b0b-b4df-973c5017d49a%26entityType%3Dcollection%26workspaceId%3D76d9a83e-3e52-4cbe-84f9-e5c9c82d3e01)
+
+### Option 2: Download Postman Collection
+
+Download dan import ke Postman:
+
+- [TodoList_API_Collection.json](./ToDoList_API_Collection.json)
+- [TodoList_Production_Environment.json](./ToDoList_Production_Environment.json)
+
+### Option 3: Manual Documentation
 
 Base URL: `http://localhost:3000`
 
-### 1. Authentication Endpoints
+#### 1. Authentication Endpoints
 
 | Method | Endpoint                    | Description           | Auth Required |
 | ------ | --------------------------- | --------------------- | ------------- |
@@ -50,7 +84,7 @@ Base URL: `http://localhost:3000`
 | PUT    | `/api/auth/update-profile`  | Update profile        | ✅            |
 | PUT    | `/api/auth/update-password` | Update password       | ✅            |
 
-### 2. Todo Endpoints
+#### 2. Todo Endpoints
 
 | Method | Endpoint                | Description                                | Auth Required |
 | ------ | ----------------------- | ------------------------------------------ | ------------- |
@@ -62,7 +96,7 @@ Base URL: `http://localhost:3000`
 | DELETE | `/api/todos/:id`        | Delete todo                                | ✅            |
 | GET    | `/api/todos/stats`      | Get todo statistics                        | ✅            |
 
-### 3. Admin Endpoints
+#### 3. Admin Endpoints
 
 | Method | Endpoint               | Description           | Auth Required | Role  |
 | ------ | ---------------------- | --------------------- | ------------- | ----- |
@@ -156,7 +190,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
   "success": true,
   "data": {
     "_id": "6789abc123def456",
-    "name": "anggi@mail.com",
+    "name": "Anggi",
     "email": "anggi@mail.com",
     "role": "user",
     "createdAt": "2025-10-11T10:30:00.000Z",
