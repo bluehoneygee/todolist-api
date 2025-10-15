@@ -4,10 +4,19 @@
 
 ---
 
+## Live API Deployment (Railway)
+
+Server API sudah di-deploy dan bisa diakses secara publik melalui:
+**[https://todolist-api-production-c409.up.railway.app](https://todolist-api-production-c409.up.railway.app)**
+
+---
+
 ## Quick Links
 
 - [Interactive API Documentation](https://documenter.getpostman.com/view/47645269/2sB3QNooBP)
-- [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/47645269-4389e37f-b17f-4b0b-b4df-973c5017d49a?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D47645269-4389e37f-b17f-4b0b-b4df-973c5017d49a%26entityType%3Dcollection%26workspaceId%3D76d9a83e-3e52-4cbe-84f9-e5c9c82d3e01)
+
+- [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/47645269-4389e37f-b17f-4b0b-b4df-973c5017d49a?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D47645269-4389e37f-b17f-4b0b-b4df-973c5017d49a%26entityType%3Dcollection%26workspaceId%3D76d9a83e-3e52-4cbe-84f9-e5c9c82d3e01#?env%5BToDoList-Production%5D=W3sia2V5IjoiYmFzZV91cmwiLCJ2YWx1ZSI6Imh0dHBzOi8vdG9kb2xpc3QtYXBpLXByb2R1Y3Rpb24tYzQwOS51cC5yYWlsd2F5LmFwcCIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0Iiwic2Vzc2lvblZhbHVlIjoiaHR0cHM6Ly90b2RvbGlzdC1hcGktcHJvZHVjdGlvbi1jNDA5LnVwLnJhaWx3YXkuYXBwIiwiY29tcGxldGVTZXNzaW9uVmFsdWUiOiJodHRwczovL3RvZG9saXN0LWFwaS1wcm9kdWN0aW9uLWM0MDkudXAucmFpbHdheS5hcHAiLCJzZXNzaW9uSW5kZXgiOjB9LHsia2V5IjoidG9rZW4iLCJ2YWx1ZSI6IiIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0Iiwic2Vzc2lvblZhbHVlIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBaQ0k2SWpZNFpXWmxZV05pTkRFell6Y3dPR0ZpWWpZMU1tTTNNaUlzSW5KdmJHVWlPaUoxYzJWeUlpd2lhV0YwSWpveE56WXdOVFV6TnpJMUxDSmxlSEFpT2pFM05qRXguLi4iLCJjb21wbGV0ZVNlc3Npb25WYWx1ZSI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwWkNJNklqWTRaV1psWVdOaU5ERXpZemN3T0dGaVlqWTFNbU0zTWlJc0luSnZiR1VpT2lKMWMyVnlJaXdpYVdGMElqb3hOell3TlRVek56STFMQ0psZUhBaU9qRTNOakV4TlRnMU1qVjkuMUZZOXkxWUZzcHdfNlRGeVNXMGlWM0xhU0ZXS01YT1pUX1dxZzctYzF5byIsInNlc3Npb25JbmRleCI6MX0seyJrZXkiOiJhZG1pbl90b2tlbiIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImRlZmF1bHQiLCJzZXNzaW9uVmFsdWUiOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcFpDSTZJalk0WldabFlXTm1OREV6WXpjd09HRmlZalkxTW1NM05TSXNJbkp2YkdVaU9pSmhaRzFwYmlJc0ltbGhkQ0k2TVRjMk1EVTFNelk0TUN3aVpYaHdJam94TnpZeC4uLiIsImNvbXBsZXRlU2Vzc2lvblZhbHVlIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBaQ0k2SWpZNFpXWmxZV05tTkRFell6Y3dPR0ZpWWpZMU1tTTNOU0lzSW5KdmJHVWlPaUpoWkcxcGJpSXNJbWxoZENJNk1UYzJNRFUxTXpZNE1Dd2laWGh3SWpveE56WXhNVFU0TkRnd2ZRLmZLWk5EZlB2WDVydktQOFRyLUozTHZXVDRMVTZESmh5Wk01MUJvUWN4NjgiLCJzZXNzaW9uSW5kZXgiOjJ9XQ==)
+
 - Download Collection:
   - [ToDoList_API_Collection.json](./ToDoList_API_Collection.json)
   - [ToDoList_Production_Environment.json](./ToDoList_Production_Environment.json)
@@ -48,7 +57,7 @@
 
 ## API Documentations
 
-### Option 1: Interactive Documentation (Postman) - RECOMMENDED
+### Option 1: Interactive Documentation (Postman)
 
 Dokumentasi interaktif lengkap dengan contoh request/response:
 
@@ -61,7 +70,17 @@ Features:
 - ✅ Bisa test langsung dengan "Run in Postman"
 - ✅ Copy-paste ready code snippets
 
-- [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/47645269-4389e37f-b17f-4b0b-b4df-973c5017d49a?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D47645269-4389e37f-b17f-4b0b-b4df-973c5017d49a%26entityType%3Dcollection%26workspaceId%3D76d9a83e-3e52-4cbe-84f9-e5c9c82d3e01)
+- [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/47645269-4389e37f-b17f-4b0b-b4df-973c5017d49a?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D47645269-4389e37f-b17f-4b0b-b4df-973c5017d49a%26entityType%3Dcollection%26workspaceId%3D76d9a83e-3e52-4cbe-84f9-e5c9c82d3e01#?env%5BToDoList-Production%5D=W3sia2V5IjoiYmFzZV91cmwiLCJ2YWx1ZSI6Imh0dHBzOi8vdG9kb2xpc3QtYXBpLXByb2R1Y3Rpb24tYzQwOS51cC5yYWlsd2F5LmFwcCIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0Iiwic2Vzc2lvblZhbHVlIjoiaHR0cHM6Ly90b2RvbGlzdC1hcGktcHJvZHVjdGlvbi1jNDA5LnVwLnJhaWx3YXkuYXBwIiwiY29tcGxldGVTZXNzaW9uVmFsdWUiOiJodHRwczovL3RvZG9saXN0LWFwaS1wcm9kdWN0aW9uLWM0MDkudXAucmFpbHdheS5hcHAiLCJzZXNzaW9uSW5kZXgiOjB9LHsia2V5IjoidG9rZW4iLCJ2YWx1ZSI6IiIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0Iiwic2Vzc2lvblZhbHVlIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBaQ0k2SWpZNFpXWmxZV05pTkRFell6Y3dPR0ZpWWpZMU1tTTNNaUlzSW5KdmJHVWlPaUoxYzJWeUlpd2lhV0YwSWpveE56WXdOVFV6TnpJMUxDSmxlSEFpT2pFM05qRXguLi4iLCJjb21wbGV0ZVNlc3Npb25WYWx1ZSI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwWkNJNklqWTRaV1psWVdOaU5ERXpZemN3T0dGaVlqWTFNbU0zTWlJc0luSnZiR1VpT2lKMWMyVnlJaXdpYVdGMElqb3hOell3TlRVek56STFMQ0psZUhBaU9qRTNOakV4TlRnMU1qVjkuMUZZOXkxWUZzcHdfNlRGeVNXMGlWM0xhU0ZXS01YT1pUX1dxZzctYzF5byIsInNlc3Npb25JbmRleCI6MX0seyJrZXkiOiJhZG1pbl90b2tlbiIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImRlZmF1bHQiLCJzZXNzaW9uVmFsdWUiOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcFpDSTZJalk0WldabFlXTm1OREV6WXpjd09HRmlZalkxTW1NM05TSXNJbkp2YkdVaU9pSmhaRzFwYmlJc0ltbGhkQ0k2TVRjMk1EVTFNelk0TUN3aVpYaHdJam94TnpZeC4uLiIsImNvbXBsZXRlU2Vzc2lvblZhbHVlIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBaQ0k2SWpZNFpXWmxZV05tTkRFell6Y3dPR0ZpWWpZMU1tTTNOU0lzSW5KdmJHVWlPaUpoWkcxcGJpSXNJbWxoZENJNk1UYzJNRFUxTXpZNE1Dd2laWGh3SWpveE56WXhNVFU0TkRnd2ZRLmZLWk5EZlB2WDVydktQOFRyLUozTHZXVDRMVTZESmh5Wk01MUJvUWN4NjgiLCJzZXNzaW9uSW5kZXgiOjJ9XQ==)
+
+#### Catatan Penting (Postman)
+
+Setelah melakukan **Fork** melalui tombol **Run in Postman**, lakukan ini agar request tidak error:
+
+1. Buka tab **Environments** di Postman
+2. Pilih environment **ToDoList-Production**
+3. Klik **Set Active** (pojok kanan atas)
+
+> Jika environment tidak diaktifkan, variable seperti `base_url`/`token` tidak terbaca dan Anda bisa mendapatkan error seperti **“DNSLookup: EBADNAME {{base_url}}”** atau **“Not authorized, token failed.”**
 
 ### Option 2: Download Postman Collection
 
