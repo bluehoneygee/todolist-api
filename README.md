@@ -74,7 +74,15 @@ Features:
 
 #### Catatan Penting (Postman)
 
-Setelah melakukan **Fork** melalui tombol **Run in Postman**, lakukan ini agar request tidak error:
+**SEBELUM FORKING** melalui tombol **Run in Postman** pastikan setting berikut agar forking berhasil:
+
+1. Buka **Settings** di Postman (⚙️ icon di kiri atas)
+2. Pilih tab **Profile**
+3. Pastikan **Make profile public** dalam keadaan **ON** (toggle aktif)
+4. Pilih tab **Workbench**
+5. Pastikan **Make workbench public** dalam keadaan **ON** (toggle aktif)
+
+**SETELAH FORKING**, lakukan ini agar request tidak error:
 
 1. Buka tab **Environments** di Postman
 2. Pilih environment **ToDoList-Production**
